@@ -19,4 +19,3 @@ for a0 in range(t):
         print(prime)
     if end == 0:
         print(n)
-
