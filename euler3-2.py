@@ -3,6 +3,11 @@
 import sys
 import math
 
+# To find the highest prime factor, we need to find
+# prime factors building the number
+# In order to achieve this we must divide our number to 
+# all prime factors till n^^0.5, since number must have at least one prime factor k_1<n^^0.5
+# for a prime factor k_2>n^^0.5
 
 t = int(input())
 for a0 in range(t):
